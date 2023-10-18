@@ -17,10 +17,11 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Lato', sans-serif;
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0.8px solid var(--global-divider-color);
 }
 
 table {
@@ -57,7 +58,7 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 85%;
 }
 
 blockquote {
@@ -65,7 +66,7 @@ blockquote {
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 1.1.5em;
 
   p {
     margin-bottom: 0;
@@ -197,7 +198,8 @@ blockquote {
 }
 
 .post-description {
-  margin-bottom: 2rem;
+  margin-right: 3rem; // 修改social图标位置
+  margin-bottom: 1.5em;
   font-size: 0.875rem;
 
   a {
@@ -352,7 +354,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5em;
 
     a {
       i::before {
@@ -407,7 +409,7 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.6rem;
 
   .container {
     color: var(--global-footer-text-color);
@@ -472,12 +474,12 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1.5em;
   padding-bottom: 3rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -504,6 +506,7 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+  font-size: 1.7em;
 }
 
 .post-list {
@@ -514,8 +517,8 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 
     .post-meta {
       color: var(--global-text-color-light);
@@ -616,7 +619,7 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1.5em;
     margin-bottom: 1rem;
     text-align: right;
   }
@@ -626,11 +629,11 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.5em;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -640,7 +643,7 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
 
     span {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -648,8 +651,8 @@ footer.sticky-bottom {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-top: 1.5em;
+    margin-bottom: -1.5em;
     text-align: right;
   }
 
@@ -668,7 +671,7 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        height: 2rem;
+        height: 1.5em;
         margin-bottom: 0.5rem;
 
         abbr {
