@@ -4,20 +4,25 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a first-year graduate student at the [Department of Computer Science, New Jersey Institue of Technology(NJIT)](https://cs.njit.edu). Currently, I am working closely with [Prof. Mengnan Du](https://mengnandu.com) on model interpretablity. My research interests lie in Explainable AI(XAI), with an emphasis on large language models(LLMs). Before that I obtained my master degree from [Huazhong University of Science and Technology(HUST)](http://aia.hust.edu.cn) and my bachelor degree from [Wuhan University of Technology(WUT)](http://sa.whut.edu.cn).
+
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+**XAI**, **LLM Alignment**
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[02/2024]** Preprint: Opening the Black Box of Large Language Models: Two Views on Holistic Interpretability
+- **[01/2024]** Preprint: The Impact of Reasoning Step Length on Large Language Models
+- **[11/2023]** Accepted: Explainability for Large Language Models: A Survey
+- **[10/2023]** Invited talk @ NJIT FinTech Seminar: Explainability on LLMs
+- **[10/2023]** Invited talk @ MLLM-AI: Explainability on LLMs
+- **[10/2023]** Invited talk @ UberAI: Explainability on LLMs
+- **[09/2023]** Preprint: Mitigating Shortcuts in Language Models with Soft Label Encoding
 
-{% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/publications.md %} -->
+
+{% include_relative _includes/teaching.md %}
+<!-- {% include_relative _includes/services.md %} -->
