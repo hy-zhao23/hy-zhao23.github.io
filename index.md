@@ -13,6 +13,7 @@ I am a first-year graduate student at the [Department of Computer Science, New J
 
 ## News
 
+- **[03/2024]** Preprint: Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era
 - **[02/2024]** Preprint: Opening the Black Box of Large Language Models: Two Views on Holistic Interpretability
 - **[01/2024]** Preprint: The Impact of Reasoning Step Length on Large Language Models
 - **[11/2023]** Accepted: Explainability for Large Language Models: A Survey
