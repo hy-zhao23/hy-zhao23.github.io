@@ -15,15 +15,15 @@ I am a first-year graduate student at the [Department of Computer Science, New J
 
 - **[03/2024]** Preprint: Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era
 - **[02/2024]** Preprint: Opening the Black Box of Large Language Models: Two Views on Holistic Interpretability
-- **[01/2024]** Preprint: The Impact of Reasoning Step Length on Large Language Models
-- **[11/2023]** Accepted: Explainability for Large Language Models: A Survey
+- **[02/2024]** Accepted: The Impact of Reasoning Step Length on Large Language Models(COLING)
+- **[09/2023]** Preprint: Mitigating Shortcuts in Language Models with Soft Label Encoding
+- **[11/2023]** Accepted: Explainability for Large Language Models: A Survey(TMLR)
 - **[10/2023]** Invited talk @ NJIT FinTech Seminar: Explainability on LLMs
 - **[10/2023]** Invited talk @ MLLM-AI: Explainability on LLMs
 - **[10/2023]** Invited talk @ UberAI: Explainability on LLMs
-- **[09/2023]** Preprint: Mitigating Shortcuts in Language Models with Soft Label Encoding
 
 
 <!-- {% include_relative _includes/publications.md %} -->
 
 {% include_relative _includes/teaching.md %}
-<!-- {% include_relative _includes/services.md %} -->
+{% include_relative _includes/services.md %}
