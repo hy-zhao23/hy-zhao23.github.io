@@ -17,7 +17,7 @@ I am a first-year graduate student at the [Department of Computer Science, New J
 - **[02/2024]** Preprint: Opening the Black Box of Large Language Models: Two Views on Holistic Interpretability
 - **[02/2024]** Accepted: Mitigating Shortcuts in Language Models with Soft Label Encoding(COLING)
 - **[01/2024]** Preprint: The Impact of Reasoning Step Length on Large Language Models
-- **[11/2023]** Accepted: Explainability for Large Language Models: A Survey(TMLR)
+- **[11/2023]** Accepted: Explainability for Large Language Models: A Survey(TIST)
 - **[10/2023]** Invited talk @ NJIT FinTech Seminar: Explainability on LLMs
 - **[10/2023]** Invited talk @ MLLM-AI: Explainability on LLMs
 - **[10/2023]** Invited talk @ UberAI: Explainability on LLMs
