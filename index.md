@@ -13,8 +13,9 @@ I am a first-year graduate student at the [Department of Computer Science, New J
 
 ## News
 
+- **[04/2024]** Preprint: Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?
 - **[03/2024]** Preprint: Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era
-- **[02/2024]** Preprint: Opening the Black Box of Large Language Models: Two Views on Holistic Interpretability
+- **[02/2024]** Preprint: Towards Uncovering How Large Language Model Works: An Explainability Perspective
 - **[02/2024]** Accepted: Mitigating Shortcuts in Language Models with Soft Label Encoding(COLING)
 - **[01/2024]** Preprint: The Impact of Reasoning Step Length on Large Language Models
 - **[11/2023]** Accepted: Explainability for Large Language Models: A Survey(TIST)
