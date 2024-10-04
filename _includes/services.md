@@ -15,4 +15,4 @@
 </ul> -->
 
 - Conference reviewing: ICML
-- Journal reviewing: Scientific Reports, Expert Systems With Applications
+- Journal reviewing: Scientific Reports, Expert Systems With Applications, Information Processing and Management
