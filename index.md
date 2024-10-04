@@ -15,7 +15,7 @@ I am a second-year graduate student at the [Department of Computer Science, New 
 
 - **[09/2024]** Preprint: Beyond Single Concept Vector: Modeling Concept Subspace in LLMs with Gaussian Distribution ([Arxiv](https://arxiv.org/abs/2410.00153))
 - **[09/2024]** Preprint: Exploring Multilingual Probing in Large Language Models: A Cross-Language Analysis ([Arxiv](https://arxiv.org/abs/2409.14459))
-- **[06/2024]** Talk @ IEEE ICHI: Explaining training samples and enhancing trustworthiness with LLM ([Arxiv](https://arxiv.org/abs/2404.07066))
+- **[06/2024]** Talk @ IEEE ICHI: Explaining training samples and enhancing trustworthiness with LLM
 - **[04/2024]** Preprint: Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers? ([Arxiv](https://arxiv.org/abs/2404.07066))
 - **[03/2024]** Preprint: Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era ([Arxiv](https://arxiv.org/abs/2403.08946))
 - **[02/2024]** Preprint: Towards Uncovering How Large Language Model Works: An Explainability Perspective ([Arxiv](https://arxiv.org/abs/2402.10688))
