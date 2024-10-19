@@ -1,7 +1,9 @@
 {% assign citations = site.data.bibtex %}
 <div class="row">
     <div class="col-md-12">
+        <div id="citation">
         <h2>Citation</h2>
+        </div>
         <div class="form-group position-relative">
             <div class="d-flex flex-column" style="position: relative;">
                 <textarea id="bibtex" class="form-control" readonly style="padding-right: 70px; height: 80px; overflow-y: auto;">{% if page.citation_key %}{{ citations[page.citation_key].bibtex | strip }}{% endif %}</textarea>

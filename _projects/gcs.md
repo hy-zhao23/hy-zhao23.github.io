@@ -19,7 +19,7 @@ links:
   - title: Code
     url: https://github.com/
   - title: Citation
-    url: https://www.linkedin.com/
+    url: "#citation"
 citation_key: gcs
 ---
 
@@ -46,9 +46,9 @@ Probing learned concepts in large language models (LLMs) is crucial for understa
 <div style="display: flex; justify-content: center;">
   <table style="width: 90%;">
     <tr>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l7-hist-Bird-30.pdf' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/g7-hist-Bird-26.pdf' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l13-hist-Bird-38.pdf' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l7-hist-Bird-30.png' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/g7-hist-Bird-26.png' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l13-hist-Bird-38.png' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
     </tr>
     <tr>
       <th style="text-align: center;">Llama-2-7B, layer 30</th>
@@ -60,13 +60,12 @@ Probing learned concepts in large language models (LLMs) is crucial for understa
 <p style="text-align: center;"><em>Figure: Histogram of cosine similarity within observed concept vectors, sampled concept vectors,
 and between both sets for concept "Bird".</em></p>
 
-- Experiment 2
 <div style="display: flex; justify-content: center;">
   <table style="width: 90%;">
     <tr>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l7-Averaged-similarities-Bird-o-s-1000.pdf' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/g7-Averaged-similarities-Bird-o-s-1000.pdf' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l13-Averaged-similarities-Bird-o-s-1000.pdf' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l7-Averaged-similarities-Bird-o-s-1000.png' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/g7-Averaged-similarities-Bird-o-s-1000.png' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/hist/l13-Averaged-similarities-Bird-o-s-1000.png' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
     </tr>
     <tr>
       <th style="text-align: center;">Llama-2-7B</th>
@@ -77,6 +76,23 @@ and between both sets for concept "Bird".</em></p>
 </div>
 <p style="text-align: center;"><em>Figure: Layer-wise average cosine similarity from the second layer to the penultimate layer of observed concept vectors, sampled concept vectors, and between both sets for concept "Bird".</em></p>
 
+- Experiment 2
+<div style="display: flex; justify-content: center;">
+  <table style="width: 90%;">
+    <tr>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/acc/l7-Averaged-accuracy-Bird-o-s-1000.png' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/acc/g7-Averaged-accuracy-Bird-o-s-1000.png' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/acc/l13-Averaged-accuracy-Bird-o-s-1000.png' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
+    </tr>
+    <tr>
+      <th style="text-align: center;">Llama-2-7B</th>
+      <th style="text-align: center;">Gemma-2-7B</th>
+      <th style="text-align: center;">Llama-2-13B</th>
+    </tr>
+  </table>
+</div>
+<p style="text-align: center;"><em>Figure: Accuracy of observed and sampled concept vectors aross varying models.</em></p>
+
 - Conclusion
   - Observed concept vectors are similar to sampled concept vectors in representation space.
   - GCS-sampled concept vectors are more general and robust on classifying concept-related data.
@@ -86,9 +102,9 @@ and between both sets for concept "Bird".</em></p>
 <div style="display: flex; justify-content: center;">
   <table style="width: 90%;">
     <tr>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/l7-sim-mat-s-30.pdf' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/g7-sim-mat-s-26.pdf' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/l13-sim-mat-s-38.pdf' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/l7-sim-mat-s-30.png' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/g7-sim-mat-s-26.png' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/heatmap/l13-sim-mat-s-38.png' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
     </tr>
     <tr>
       <th style="text-align: center;">Llama-2-7B</th>
@@ -103,9 +119,9 @@ and between both sets for concept "Bird".</em></p>
 <div style="display: flex; justify-content: center;">
   <table style="width: 90%;">
     <tr>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/l7-pca_sampled_layer_30.pdf' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/g7-pca_sampled_layer_27.pdf' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
-      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/l13-pca_sampled_layer_38.pdf' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/l7-pca_sampled_layer_30.png' | relative_url }}" alt="Llama-2-7B, layer 30" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/g7-pca_sampled_layer_27.png' | relative_url }}" alt="Gemma-7B, layer 26" style="width: 100%; max-width: 300px;"></td>
+      <td style="text-align: center;"><img src="{{ '/assets/projects/img/gcs/fig/pca/l13-pca_sampled_layer_38.png' | relative_url }}" alt="Llama-2-13B, layer 38" style="width: 100%; max-width: 300px;"></td>
     </tr>
     <tr>
       <th style="text-align: center;">Llama-2-7B</th>
