@@ -1,0 +1,44 @@
+{% assign citations = site.data.bibtex %}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Citation</h2>
+        <div class="form-group position-relative">
+            <div class="d-flex flex-column" style="position: relative;">
+                <textarea id="bibtex" class="form-control" readonly style="padding-right: 70px; height: 80px; overflow-y: auto;">{% if page.citation_key %}{{ citations[page.citation_key].bibtex | strip }}{% endif %}</textarea>
+                <button id="copyButton" class="btn btn-sm btn-secondary" style="position: absolute; top: 5px; right: 5px; z-index: 10;">
+                    Copy
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById('copyButton').addEventListener('click', function() {
+    var bibtexContent = document.getElementById('bibtex');
+    bibtexContent.select();
+    document.execCommand('copy');
+    
+    // Change button text temporarily
+    this.textContent = 'Copied!';
+    setTimeout(() => this.textContent = 'Copy', 2000);
+});
+</script>
+
+<style>
+    .form-group {
+        position: relative;
+    }
+    #bibtex {
+        width: 100%;
+        resize: none;
+        height: 100px;
+        overflow-y: auto;
+    }
+    #copyButton {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 10;
+    }
+</style>

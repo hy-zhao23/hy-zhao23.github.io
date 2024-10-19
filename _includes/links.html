@@ -1,0 +1,65 @@
+<!-- {% assign link_icons = "arxiv:fa-locust,code:fa-code,dataset:fa-database,demo:fa-laptop-code,slides:fa-file-powerpoint,poster:fa-file-image,video:fa-video,twitter:fa-square-x-twitter,linkedin:fa-linkedin,citation:fa-quote-right,github:fa-github,website:fa-link" | split: "," %} -->
+{% assign link_icons = "poster:fa-regular fa-file-lines,code:fab fa-github-alt,dataset:fa-regular fa-database,demo:fas fa-laptop,slides:fas fa-file-powerpoint,arxiv:fa-regular fa-file-pdf,video:fas fa-video,twitter:fa-brands fa-x-twitter,linkedin:fab fa-linkedin,citation:fas fa-quote-left,website:fa-link" | split: "," %}
+
+{% assign icon_keys = "" | split: "" %}
+{% assign icon_values = "" | split: "" %}
+
+{% for item in link_icons %}
+    {% assign key_value = item | split: ":" %}
+    {% assign icon_keys = icon_keys | push: key_value[0] %}
+    {% assign icon_values = icon_values | push: key_value[1] %}
+{% endfor %}
+
+<div class="row text-center">
+    <div class="link-block">
+        {% for link in page.links %}
+            {% assign lowercase_title = link.title | downcase | strip %}
+            {% assign icon_index = -1 %}
+            {% for i in (0..icon_keys.size) %}
+                {% if icon_keys[i] == lowercase_title %}
+                    {% assign icon_index = i %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            {% if icon_index >= 0 %}
+                {% assign icon_class = icon_values[icon_index] %}
+            {% else %}
+                {% assign icon_class = "fa-link" %}
+            {% endif %}
+            <a href="{{ link.url }}" class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener noreferrer">
+                <span class="icon">
+                    <i class="{{ icon_class }}"></i>
+                </span>
+                <span>{{ link.title }}</span>
+            </a>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .link-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .external-link {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 20px;
+        color: #212529;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    .external-link:hover {
+        background-color: #e9ecef;
+        color: #000;
+    }
+    .icon {
+        margin-right: 5px;
+    }
+</style>

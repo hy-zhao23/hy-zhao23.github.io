@@ -1,22 +1,69 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   # code: https://github.com/MrGiovanni/ContinualLearning
+  #   page: /projects/gcs/
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Beyond Single Concept Vector: Modeling Concept Subspace in LLMs with Gaussian Distribution"
+    authors: <strong>Haiyan Zhao</strong>, Heng Zhao, Bo Shen, Ali Payani, Fan Yang, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2410.00153
+    image: ./assets/img/paper/subspace.png
+    page: /projects/gcs/
+
+  - title: "Exploring Multilingual Probing in Large Language Models: A Cross-Language Analysis"
+    authors: Daoyang Li, Mingyu Jin, Qingcheng Zeng, <strong>Haiyan Zhao</strong>, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2409.14459
+    image: ./assets/img/paper/multilingual.png
+
+  - title: "Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?"
+    authors: Mingyu Jin, Qinkai Yu, Jingyuan Huang, Qingcheng Zeng, Zhenting Wang, Wenyue Hua, <strong>Haiyan Zhao</strong>, Kai Mei, Yanda Meng, Kaize Ding, Fan Yang, Mengnan Du, Yongfeng Zhang
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2404.07066
+    image: ./assets/img/paper/concept_depth.png
+
+  - title: "Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era"
+    authors: Xuansheng Wu, <strong>Haiyan Zhao</strong>, Yaochen Zhu, Yucheng Shi, Fan Yang, Tianming Liu, Xiaoming Zhai, Wenlin Yao, Jundong Li, Mengnan Du, Ninghao Liu
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2403.08946
+    image: ./assets/img/paper/usable_xai.pdf
+
+  - title: "Towards Uncovering How Large Language Model Works: An Explainability Perspective"
+    authors: <strong>Haiyan Zhao</strong>, Fan Yang, Bo Shen, Himabindu Lakkaraju, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2402.10688
+    image: ./assets/img/paper/llm_mi.pdf
+
+  - title: "Mitigating Shortcuts in Language Models with Soft Label Encoding"
+    authors: Zirui He, Huiqi Deng, <strong>Haiyan Zhao</strong>, Ninghao Liu, Mengnan Du
+    conference_short: COLING
+    conference: Association for Computational Linguistics <strong>(COLING)</strong>, 2024.
+    pdf: https://aclanthology.org/2024.findings-acl.108/
+    image: ./assets/img/paper/shortcut_zr.png
+
+  - title: "The Impact of Reasoning Step Length on Large Language Models"
+    authors: Mingyu Jin, Qinkai Yu, Dong Shu, <strong>Haiyan Zhao</strong>, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du
+    conference_short: ACL
+    conference: Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2024.
+    pdf: https://aclanthology.org/2024.findings-acl.108/
+    image: ./assets/img/paper/reasoning_step.png
+  
+  - title: "Explainability for Large Language Models: A Survey"
+    authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
+    conference_short: TIST
+    conference: ACM Transactions on Intelligent Systems and Technology <strong>(TIST)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
+    image: ./assets/img/paper/llm_xai.png

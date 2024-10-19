@@ -2,3 +2,24 @@
 ---
 
 @import "minimal-light";
+
+
+
+
+.wrapper {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  width: 15%; /* Changed to percentage */
+  float: left;
+  position: fixed;
+}
+
+section {
+  width: 75%; /* Changed to percentage */
+  float: right;
+  padding-bottom: 50px;
+}

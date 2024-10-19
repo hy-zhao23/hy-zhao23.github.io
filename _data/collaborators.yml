@@ -1,0 +1,32 @@
+affiliations:
+  njit: New Jersey Institute of Technology
+  wfu: Wake Forest University
+  cisco: Cisco Research
+  # Add more affiliations as needed
+
+collaborators:
+  - name: Haiyan Zhao
+    url: https://hy-zhao23.github.io/
+    affiliation: njit 
+
+  - name: Heng Zhao
+    url: https://hengzhao23.github.io/
+    affiliation: wfu
+
+  - name: Bo Shen
+    url: https://boshen0.github.io
+    affiliation: njit
+
+  - name: Ali Payani
+    url: https://scholar.google.com/citations?user=9rHwD8wAAAAJ&hl=en
+    affiliation: cisco
+
+  - name: Fan Yang
+    url: https://yangfan.sites.wfu.edu
+    affiliation: wfu
+
+  - name: Mengnan Du
+    url: https://mengnandu.com
+    affiliation: njit
+
+  # Add more collaborators as needed

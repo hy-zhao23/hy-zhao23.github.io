@@ -28,6 +28,12 @@ favicon_dark: ./assets/img/favicon.jpg
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 
+# tell Jekyll about the new collection
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: true

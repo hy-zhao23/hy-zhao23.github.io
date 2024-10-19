@@ -1,0 +1,63 @@
+<div class="image-carousel">
+    <div class="carousel-container">
+        {% for image in include.images %}
+            <img src="{{ image }}" alt="Framework image {{ forloop.index }}">
+        {% endfor %}
+    </div>
+    <button class="prev">&lt;</button>
+    <button class="next">&gt;</button>
+</div>
+
+<style>
+    .image-carousel {
+        position: relative;
+        max-width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .carousel-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .carousel-container img {
+        width: 100%;
+        height: auto;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.carousel-container');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+    const totalImages = {{ include.images | size }};
+
+    function showImage(index) {
+        const width = container.clientWidth;
+        container.style.transform = `translateX(-${index * width}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        showImage(currentIndex);
+    });
+
+    nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % totalImages;
+        showImage(currentIndex);
+    });
+});
+</script>
