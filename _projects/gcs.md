@@ -14,10 +14,10 @@ image_base_url: /assets/projects/img/gcs/
 links:
   - title: arXiv
     url: https://arxiv.org/abs/2410.00153
-  - title: Slides
-    url: https://arxiv.org/abs/2402.09647
-  - title: Code
-    url: https://github.com/
+  # - title: Slides
+  #   url: https://arxiv.org/abs/2402.09647
+  # - title: Code
+  #   url: https://github.com/
   - title: Citation
     url: "#citation"
 citation_key: gcs
