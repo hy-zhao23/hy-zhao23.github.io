@@ -1,12 +1,11 @@
-
-- date: 06/2024
-  content: "Talk @ IEEE ICHI: Explaining training samples and enhancing trustworthiness with LLM"
-
 - date: 10/2023
-  content: "Invited talk @ NJIT FinTech Seminar: Explainability on LLMs"
+  content: "Invited talk @ UberAI: Explainability on LLMs"
 
 - date: 10/2023
   content: "Invited talk @ MLLM-AI: Explainability on LLMs"
 
 - date: 10/2023
-  content: "Invited talk @ UberAI: Explainability on LLMs"
+  content: "Invited talk @ NJIT FinTech Seminar: Explainability on LLMs"
+
+- date: 06/2024
+  content: "Talk @ IEEE ICHI: Explaining training samples and enhancing trustworthiness with LLM"

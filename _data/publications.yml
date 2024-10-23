@@ -39,6 +39,7 @@ main:
     conference: preprint
     pdf: https://arxiv.org/abs/2403.08946
     image: ./assets/img/paper/usable_xai.pdf
+    code: https://github.com/JacksonWuxs/UsableXAI_LLM
 
   - title: "Towards Uncovering How Large Language Model Works: An Explainability Perspective"
     authors: <strong>Haiyan Zhao</strong>, Fan Yang, Bo Shen, Himabindu Lakkaraju, Mengnan Du
@@ -53,6 +54,7 @@ main:
     conference: Association for Computational Linguistics <strong>(COLING)</strong>, 2024.
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/shortcut_zr.png
+    code: https://github.com/ZiruiHE99/sle
 
   - title: "The Impact of Reasoning Step Length on Large Language Models"
     authors: Mingyu Jin, Qinkai Yu, Dong Shu, <strong>Haiyan Zhao</strong>, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du
@@ -60,6 +62,7 @@ main:
     conference: Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2024.
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/reasoning_step.png
+    code: https://github.com/MingyuJ666/The-Impact-of-Reasoning-Step-Length-on-Large-Language-Models
   
   - title: "Explainability for Large Language Models: A Survey"
     authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
@@ -67,3 +70,4 @@ main:
     conference: ACM Transactions on Intelligent Systems and Technology <strong>(TIST)</strong>, 2024.
     pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
     image: ./assets/img/paper/llm_xai.png
+    code: https://github.com/hy-zhao23/Explainability-for-Large-Language-Models/
