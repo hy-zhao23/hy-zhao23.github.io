@@ -28,8 +28,8 @@ main:
 
   - title: "Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?"
     authors: Mingyu Jin, Qinkai Yu, Jingyuan Huang, Qingcheng Zeng, Zhenting Wang, Wenyue Hua, <strong>Haiyan Zhao</strong>, Kai Mei, Yanda Meng, Kaize Ding, Fan Yang, Mengnan Du, Yongfeng Zhang
-    conference_short: arXiv
-    conference: preprint
+    conference_short: COLING
+    conference: COLING, 2025 
     pdf: https://arxiv.org/abs/2404.07066
     image: ./assets/img/paper/concept_depth.png
 
@@ -38,7 +38,7 @@ main:
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2403.08946
-    image: ./assets/img/paper/usable_xai.pdf
+    image: ./assets/img/paper/usable_xai.png
     code: https://github.com/JacksonWuxs/UsableXAI_LLM
 
   - title: "Towards Uncovering How Large Language Model Works: An Explainability Perspective"
@@ -46,12 +46,12 @@ main:
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2402.10688
-    image: ./assets/img/paper/llm_mi.pdf
+    image: ./assets/img/paper/llm_mi.png
 
   - title: "Mitigating Shortcuts in Language Models with Soft Label Encoding"
     authors: Zirui He, Huiqi Deng, <strong>Haiyan Zhao</strong>, Ninghao Liu, Mengnan Du
     conference_short: COLING
-    conference: Association for Computational Linguistics <strong>(COLING)</strong>, 2024.
+    conference: COLING, 2024.
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/shortcut_zr.png
     code: https://github.com/ZiruiHE99/sle
@@ -59,7 +59,7 @@ main:
   - title: "The Impact of Reasoning Step Length on Large Language Models"
     authors: Mingyu Jin, Qinkai Yu, Dong Shu, <strong>Haiyan Zhao</strong>, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du
     conference_short: ACL
-    conference: Association for Computational Linguistics <strong>(ACL Findings)</strong>, 2024.
+    conference: ACL Findings, 2024.
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/reasoning_step.png
     code: https://github.com/MingyuJ666/The-Impact-of-Reasoning-Step-Length-on-Large-Language-Models
@@ -67,7 +67,7 @@ main:
   - title: "Explainability for Large Language Models: A Survey"
     authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
     conference_short: TIST
-    conference: ACM Transactions on Intelligent Systems and Technology <strong>(TIST)</strong>, 2024.
+    conference: TIST, 2024.
     pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
     image: ./assets/img/paper/llm_xai.png
     code: https://github.com/hy-zhao23/Explainability-for-Large-Language-Models/
