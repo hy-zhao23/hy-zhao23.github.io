@@ -3,5 +3,5 @@ gcs:
     @article{zhao2023beyond,
       title={Beyond Single Concept Vector: Modeling Concept Subspace in LLMs with Gaussian Distribution},
       author={Zhao, Haiyan and Zhao, Heng and Shen, Bo and Payani, Ali and Yang, Fan and Du, Mengnan},
-      journal={arXiv preprint arXiv:2410.00153},
-      year={2023}}
+      journal={ICLR},
+      year={2025}}
