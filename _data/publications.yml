@@ -11,10 +11,17 @@ main:
   #   image: ./assets/img/teaser_example_2.png
   #   notes: Early Accept
 
+  - title: "Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability"
+    authors: Shu, Dong, <strong>Haiyan Zhao</strong>, Jingyu Hu, Weiru Liu, Lu Cheng, and Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2501.01346
+    image: ./assets/img/paper/lvlm_survey.png
+
   - title: "Beyond Single Concept Vector: Modeling Concept Subspace in LLMs with Gaussian Distribution"
     authors: <strong>Haiyan Zhao</strong>, Heng Zhao, Bo Shen, Ali Payani, Fan Yang, Mengnan Du
     conference_short: ICLR
-    conference: ICLR, 2025
+    conference: ICLR 2025
     pdf: https://arxiv.org/abs/2410.00153
     image: ./assets/img/paper/subspace.png
     page: /projects/gcs/
@@ -29,7 +36,7 @@ main:
   - title: "Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?"
     authors: Mingyu Jin, Qinkai Yu, Jingyuan Huang, Qingcheng Zeng, Zhenting Wang, Wenyue Hua, <strong>Haiyan Zhao</strong>, Kai Mei, Yanda Meng, Kaize Ding, Fan Yang, Mengnan Du, Yongfeng Zhang
     conference_short: COLING
-    conference: COLING, 2025 
+    conference: COLING 2025 
     pdf: https://arxiv.org/abs/2404.07066
     image: ./assets/img/paper/concept_depth.png
 
@@ -51,7 +58,7 @@ main:
   - title: "Mitigating Shortcuts in Language Models with Soft Label Encoding"
     authors: Zirui He, Huiqi Deng, <strong>Haiyan Zhao</strong>, Ninghao Liu, Mengnan Du
     conference_short: COLING
-    conference: COLING, 2024.
+    conference: COLING 2024.
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/shortcut_zr.png
     code: https://github.com/ZiruiHE99/sle
@@ -67,7 +74,7 @@ main:
   - title: "Explainability for Large Language Models: A Survey"
     authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
     conference_short: TIST
-    conference: TIST, 2024.
+    conference: TIST 2024.
     pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
     image: ./assets/img/paper/llm_xai.png
     code: https://github.com/hy-zhao23/Explainability-for-Large-Language-Models/
