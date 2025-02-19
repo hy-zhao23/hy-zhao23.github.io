@@ -11,8 +11,15 @@ main:
   #   image: ./assets/img/teaser_example_2.png
   #   notes: Early Accept
 
+  - title: "SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models"
+    authors: He Zirui<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Yiran Qiao, Fan Yang, Ali Payani, Jing Ma and Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/abs/2502.11356
+    image: ./assets/img/paper/lvlm_survey.png
+    
   - title: "Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability"
-    authors: Shu, Dong, <strong>Haiyan Zhao</strong>, Jingyu Hu, Weiru Liu, Lu Cheng, and Mengnan Du
+    authors: Dong Shu, <strong>Haiyan Zhao</strong>, Jingyu Hu, Weiru Liu, Lu Cheng, and Mengnan Du
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2501.01346
@@ -41,7 +48,7 @@ main:
     image: ./assets/img/paper/concept_depth.png
 
   - title: "Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era"
-    authors: Xuansheng Wu, <strong>Haiyan Zhao</strong>, Yaochen Zhu, Yucheng Shi, Fan Yang, Tianming Liu, Xiaoming Zhai, Wenlin Yao, Jundong Li, Mengnan Du, Ninghao Liu
+    authors: Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Yaochen Zhu<sup>*</sup>, Yucheng Shi<sup>*</sup>, Fan Yang, Tianming Liu, Xiaoming Zhai, Wenlin Yao, Jundong Li, Mengnan Du, Ninghao Liu
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2403.08946
@@ -58,7 +65,7 @@ main:
   - title: "Mitigating Shortcuts in Language Models with Soft Label Encoding"
     authors: Zirui He, Huiqi Deng, <strong>Haiyan Zhao</strong>, Ninghao Liu, Mengnan Du
     conference_short: COLING
-    conference: COLING 2024.
+    conference: COLING 2024
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/shortcut_zr.png
     code: https://github.com/ZiruiHE99/sle
@@ -66,7 +73,7 @@ main:
   - title: "The Impact of Reasoning Step Length on Large Language Models"
     authors: Mingyu Jin, Qinkai Yu, Dong Shu, <strong>Haiyan Zhao</strong>, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du
     conference_short: ACL
-    conference: ACL Findings, 2024.
+    conference: ACL Findings 2024
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/reasoning_step.png
     code: https://github.com/MingyuJ666/The-Impact-of-Reasoning-Step-Length-on-Large-Language-Models
@@ -74,7 +81,7 @@ main:
   - title: "Explainability for Large Language Models: A Survey"
     authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
     conference_short: TIST
-    conference: TIST 2024.
+    conference: TIST 2024
     pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
     image: ./assets/img/paper/llm_xai.png
     code: https://github.com/hy-zhao23/Explainability-for-Large-Language-Models/
