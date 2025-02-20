@@ -34,7 +34,7 @@ main:
     page: /projects/gcs/
 
   - title: "Exploring Multilingual Probing in Large Language Models: A Cross-Language Analysis"
-    authors: Daoyang Li, Mingyu Jin, Qingcheng Zeng, <strong>Haiyan Zhao</strong>, Mengnan Du
+    authors: Daoyang Li, <strong>Haiyan Zhao</strong>, Qingcheng Zeng, Mengnan Du
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2409.14459
