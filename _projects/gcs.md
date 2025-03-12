@@ -20,6 +20,8 @@ links:
   #   url: https://github.com/
   - title: Citation
     url: "#citation"
+  - title: Code
+    url: https://github.com/hy-zhao23/GCS
 citation_key: gcs
 ---
 
