@@ -11,15 +11,22 @@ main:
   #   image: ./assets/img/teaser_example_2.png
   #   notes: Early Accept
 
+  - title: "Denoising Concept Vectors with Sparse Autoencoders for Improved Language Model Steering"
+    authors: <strong>Haiyan Zhao<sup>*</sup></strong>, Xuansheng Wu, Fan Yang, Bo Shen, Ninghao Liu and Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2505.15038
+    image: ./assets/img/paper/kav-sae.png
+
   - title: "A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models"
-    authors: Dong Shu<sup>*</sup>, Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Daking Rai, Ziyu Yao, Ninghao Liu and Mengnan Du
+    authors: Dong Shu<sup>*</sup>, Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao<sup>*</sup></strong>, Daking Rai, Ziyu Yao, Ninghao Liu and Mengnan Du
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2503.05613
     image: ./assets/img/paper/sae_survey.png
 
   - title: "SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models"
-    authors: Zirui He<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Yiran Qiao, Fan Yang, Ali Payani, Jing Ma and Mengnan Du
+    authors: Zirui He<sup>*</sup>, <strong>Haiyan Zhao<sup>*</sup></strong>, Yiran Qiao, Fan Yang, Ali Payani, Jing Ma and Mengnan Du
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/abs/2502.11356
@@ -43,8 +50,8 @@ main:
 
   - title: "Exploring Multilingual Probing in Large Language Models: A Cross-Language Analysis"
     authors: Daoyang Li, <strong>Haiyan Zhao</strong>, Qingcheng Zeng, Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: XLLM@ACL 2025
+    conference: ACL 2025
     pdf: https://arxiv.org/abs/2409.14459
     image: ./assets/img/paper/multilingual.png
 
