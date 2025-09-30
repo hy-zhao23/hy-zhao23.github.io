@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap');
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -80,28 +81,28 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
 heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 22px;
 }
 
 papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700
 }
 
 name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 32px;
 }
 
@@ -221,7 +222,7 @@ input:checked + .slider:before {
  top: 50%;
  left: 50%;
  font-size: 16px;
- font-family: Verdana, sans-serif;
+  font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 input:checked + .slider:after
@@ -309,7 +310,7 @@ input:checked + .slider:after
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-style: inherit;
     font-weight: inherit;
     box-sizing: inherit;
@@ -346,7 +347,7 @@ input:checked + .slider:after
       -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Carlito', Calibri, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     user-select: none;
     line-height: 1.5;
     cursor: pointer;
