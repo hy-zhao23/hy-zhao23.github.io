@@ -1,4 +1,11 @@
 main:
+  - title: "Rep2Text: Decoding Full Text from a Single LLM Token Representation"
+    authors: <strong>Haiyan Zhao</strong>, Zirui He, Fan Yang, Ali Payani, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2511.06571
+    image: ./assets/img/paper/embedding.png
+    
   - title: "MemLens: Uncovering Memorization in LLMs with Activation Trajectories"
     authors: Zirui He, <strong>Haiyan Zhao</strong>, Ali Payani and Mengnan Du
     conference_short: arXiv
