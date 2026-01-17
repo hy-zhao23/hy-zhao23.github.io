@@ -5,7 +5,7 @@ main:
     conference: preprint
     pdf: https://arxiv.org/pdf/2511.06571
     image: ./assets/img/paper/embedding.png
-    
+
   - title: "MemLens: Uncovering Memorization in LLMs with Activation Trajectories"
     authors: Zirui He, <strong>Haiyan Zhao</strong>, Ali Payani and Mengnan Du
     conference_short: arXiv
@@ -15,15 +15,15 @@ main:
 
   - title: "Denoising Concept Vectors with Sparse Autoencoders for Improved Language Model Steering"
     authors: <strong>Haiyan Zhao</strong>, Xuansheng Wu, Fan Yang, Bo Shen, Ninghao Liu and Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: EACL
+    conference: EACL Findings 2026
     pdf: https://arxiv.org/pdf/2505.15038
     image: ./assets/img/paper/kav-sae.png
 
   - title: "A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models"
     authors: Dong Shu<sup>*</sup>, Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao<sup>*</sup></strong>, Daking Rai, Ziyu Yao, Ninghao Liu and Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: EMNLP
+    conference: EMNLP Findings 2025
     pdf: https://arxiv.org/abs/2503.05613
     image: ./assets/img/paper/sae_survey.png
 
@@ -36,7 +36,7 @@ main:
 
   - title: "Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability"
     authors: Dong Shu, <strong>Haiyan Zhao</strong>, Jingyu Hu, Weiru Liu, Lu Cheng, and Mengnan Du
-    conference_short: arXiv
+    conference_short: EMNLP
     conference: EMNLP Findings 2025
     pdf: https://arxiv.org/abs/2501.01346
     image: ./assets/img/paper/lvlm_survey.png
@@ -66,16 +66,16 @@ main:
 
   - title: "Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era"
     authors: Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Yaochen Zhu<sup>*</sup>, Yucheng Shi<sup>*</sup>, Fan Yang, Tianming Liu, Xiaoming Zhai, Wenlin Yao, Jundong Li, Mengnan Du, Ninghao Liu
-    conference_short: arXiv
-    conference: preprint
+    conference_short: TKDD
+    conference: TKDD
     pdf: https://arxiv.org/abs/2403.08946
     image: ./assets/img/paper/usable_xai.png
     code: https://github.com/JacksonWuxs/UsableXAI_LLM
 
   - title: "Towards Uncovering How Large Language Model Works: An Explainability Perspective"
     authors: <strong>Haiyan Zhao</strong>, Fan Yang, Bo Shen, Himabindu Lakkaraju, Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: SIGKDD
+    conference: SIGKDD Explorations 2025
     pdf: https://arxiv.org/abs/2402.10688
     image: ./assets/img/paper/llm_mi.png
 
