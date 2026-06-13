@@ -1,10 +1,28 @@
 main:
+
+  - title: "Universal Activation Verbalizer: A Unified Framework for Cross-Model Activation Explanation"
+    authors: <strong>Haiyan Zhao</strong>, Zirui He, Guanchu Wang, Ali Payani, Yingcong Li, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2605.25903
+    image: ./assets/img/paper/uav_figure1.png
+    selected: true
+
+  - title: "SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization"
+    authors: Jingyi He, <strong>Haiyan Zhao</strong>, Ruxue Shi, Yanguang Liu, Xin Wang, Fei Sun, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2606.08496
+    image: ./assets/img/paper/saeexp.png
+    selected: true
+
   - title: "Rep2Text: Decoding Full Text from a Single LLM Token Representation"
     authors: <strong>Haiyan Zhao</strong>, Zirui He, Fan Yang, Ali Payani, Mengnan Du
     conference_short: arXiv
     conference: preprint
     pdf: https://arxiv.org/pdf/2511.06571
     image: ./assets/img/paper/embedding.png
+    selected: true
 
   - title: "MemLens: Uncovering Memorization in LLMs with Activation Trajectories"
     authors: Zirui He, <strong>Haiyan Zhao</strong>, Ali Payani and Mengnan Du
@@ -12,6 +30,7 @@ main:
     conference: preprint
     pdf: https://arxiv.org/abs/2509.20909
     image: ./assets/img/paper/memlens.jpg
+    selected: true
 
   - title: "Denoising Concept Vectors with Sparse Autoencoders for Improved Language Model Steering"
     authors: <strong>Haiyan Zhao</strong>, Xuansheng Wu, Fan Yang, Bo Shen, Ninghao Liu and Mengnan Du
@@ -19,6 +38,7 @@ main:
     conference: EACL Findings 2026
     pdf: https://arxiv.org/pdf/2505.15038
     image: ./assets/img/paper/kav-sae.png
+    selected: true
 
   - title: "A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models"
     authors: Dong Shu<sup>*</sup>, Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao<sup>*</sup></strong>, Daking Rai, Ziyu Yao, Ninghao Liu and Mengnan Du
@@ -26,13 +46,15 @@ main:
     conference: EMNLP Findings 2025
     pdf: https://arxiv.org/abs/2503.05613
     image: ./assets/img/paper/sae_survey.png
+    selected: true
 
   - title: "SAIF: A Sparse Autoencoder Framework for Interpreting and Steering Instruction Following of Language Models"
     authors: Zirui He<sup>*</sup>, <strong>Haiyan Zhao<sup>*</sup></strong>, Yiran Qiao, Fan Yang, Ali Payani, Jing Ma and Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: ECML
+    conference: ECML PKDD 2026
     pdf: https://arxiv.org/abs/2502.11356
     image: ./assets/img/paper/saif.png
+    selected: true
 
   - title: "Large Vision-Language Model Alignment and Misalignment: A Survey Through the Lens of Explainability"
     authors: Dong Shu, <strong>Haiyan Zhao</strong>, Jingyu Hu, Weiru Liu, Lu Cheng, and Mengnan Du
@@ -40,6 +62,7 @@ main:
     conference: EMNLP Findings 2025
     pdf: https://arxiv.org/abs/2501.01346
     image: ./assets/img/paper/lvlm_survey.png
+    selected: true
 
   - title: "Beyond Single Concept Vector: Modeling Concept Subspace in LLMs with Gaussian Distribution"
     authors: <strong>Haiyan Zhao</strong>, Heng Zhao, Bo Shen, Ali Payani, Fan Yang, Mengnan Du
@@ -49,13 +72,7 @@ main:
     image: ./assets/img/paper/subspace.png
     page: /projects/gcs/
     code: https://github.com/hy-zhao23/GCS
-
-  - title: "Exploring Multilingual Probing in Large Language Models: A Cross-Language Analysis"
-    authors: Daoyang Li, <strong>Haiyan Zhao</strong>, Qingcheng Zeng, Mengnan Du
-    conference_short: XLLM@ACL 2025
-    conference: ACL 2025
-    pdf: https://arxiv.org/abs/2409.14459
-    image: ./assets/img/paper/multilingual.png
+    selected: true
 
   - title: "Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?"
     authors: Mingyu Jin, Qinkai Yu, Jingyuan Huang, Qingcheng Zeng, Zhenting Wang, Wenyue Hua, <strong>Haiyan Zhao</strong>, Kai Mei, Yanda Meng, Kaize Ding, Fan Yang, Mengnan Du, Yongfeng Zhang
@@ -63,14 +80,16 @@ main:
     conference: COLING 2025
     pdf: https://arxiv.org/abs/2404.07066
     image: ./assets/img/paper/concept_depth.png
+    selected: false
 
   - title: "Usable XAI: 10 Strategies Towards Exploiting Explainability in the LLM Era"
     authors: Xuansheng Wu<sup>*</sup>, <strong>Haiyan Zhao</strong><sup>*</sup>, Yaochen Zhu<sup>*</sup>, Yucheng Shi<sup>*</sup>, Fan Yang, Tianming Liu, Xiaoming Zhai, Wenlin Yao, Jundong Li, Mengnan Du, Ninghao Liu
     conference_short: TKDD
-    conference: TKDD
+    conference: ACM TKDD 2026
     pdf: https://arxiv.org/abs/2403.08946
     image: ./assets/img/paper/usable_xai.png
     code: https://github.com/JacksonWuxs/UsableXAI_LLM
+    selected: true
 
   - title: "Towards Uncovering How Large Language Model Works: An Explainability Perspective"
     authors: <strong>Haiyan Zhao</strong>, Fan Yang, Bo Shen, Himabindu Lakkaraju, Mengnan Du
@@ -78,6 +97,7 @@ main:
     conference: SIGKDD Explorations 2025
     pdf: https://arxiv.org/abs/2402.10688
     image: ./assets/img/paper/llm_mi.png
+    selected: true
 
   - title: "Mitigating Shortcuts in Language Models with Soft Label Encoding"
     authors: Zirui He, Huiqi Deng, <strong>Haiyan Zhao</strong>, Ninghao Liu, Mengnan Du
@@ -86,6 +106,7 @@ main:
     pdf: https://aclanthology.org/2024.lrec-main.991.pdf
     image: ./assets/img/paper/shortcut_zr.png
     code: https://github.com/ZiruiHE99/sle
+    selected: false
 
   - title: "The Impact of Reasoning Step Length on Large Language Models"
     authors: Mingyu Jin, Qinkai Yu, Dong Shu, <strong>Haiyan Zhao</strong>, Wenyue Hua, Yanda Meng, Yongfeng Zhang, Mengnan Du
@@ -94,11 +115,13 @@ main:
     pdf: https://aclanthology.org/2024.findings-acl.108/
     image: ./assets/img/paper/reasoning_step.png
     code: https://github.com/MingyuJ666/The-Impact-of-Reasoning-Step-Length-on-Large-Language-Models
+    selected: false
 
   - title: "Explainability for Large Language Models: A Survey"
     authors: <strong>Haiyan Zhao</strong>, Hanjie Chen, Fan Yang, Ninghao Liu, Huiqi Deng, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Mengnan Du
     conference_short: TIST
-    conference: TIST 2024
+    conference: ACM TIST 2024
     pdf: https://dl.acm.org/doi/pdf/10.1145/3639372
     image: ./assets/img/paper/llm_xai.png
     code: https://github.com/hy-zhao23/Explainability-for-Large-Language-Models/
+    selected: true

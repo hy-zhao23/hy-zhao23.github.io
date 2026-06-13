@@ -1,11 +1,19 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+{% if include.all %}
+  {% assign pubs = site.data.publications.main %}
+  {% assign heading = "Publications" %}
+{% else %}
+  {% assign pubs = site.data.publications.main | where_exp: "item", "item.selected == true" %}
+  {% assign heading = "Selected Publications" %}
+{% endif %}
+
+<h2 id="publications" style="margin: 2px 0px -15px;">{{ heading }}</h2>
 
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in pubs %}
 
-<li>
+<li style="margin-bottom: 18px;">
 <div class="pub-row" style="display: flex; align-items: flex-start;">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px; display: flex; align-items: flex-start;">
     {% if link.image %} 
@@ -42,8 +50,6 @@
   </div>
 </div>
 </li>
-
-<br>
 
 {% endfor %}
 
