@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 body {
   background-color: #fff;
   padding:0px;
   font: 15.0px/1.5 Carlito, sans-serif;
+  /* font: 15.0px/1.5 "Source Sans 3", sans-serif; */
+  /* font: 15.0px/1.5 "DM Sans", sans-serif; */
   /* font: 15.0px/1.5 Crimson Pro, serif;  */
-  color:#595959;
+  color:#1a1a1a;
   font-weight:400;
   margin:0
+}
+
+strong, b {
+  font-weight: 600 !important;
 }
