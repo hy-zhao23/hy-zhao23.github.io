@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a third-year graduate student at the [Department of Computer Science, New Jersey Institue of Technology(NJIT)](https://cs.njit.edu). Currently, I am working closely with [Prof. Mengnan Du](https://mengnandu.com) on model interpretability. My research interests lie in Explainable AI(XAI), with an emphasis on large language models(LLMs). Before that I obtained my master degree from [Huazhong University of Science and Technology(HUST)](http://aia.hust.edu.cn) and my bachelor degree from [Wuhan University of Technology(WUT)](http://sa.whut.edu.cn).
+Hi there! 👋 I am a third-year graduate student at the [Department of Computer Science, New Jersey Institute of Technology (NJIT)](https://cs.njit.edu). Currently, I am working closely with [Prof. Mengnan Du](https://mengnandu.com) on model interpretability. My research interests lie in representation understanding, with an emphasis on activation explanations with large language models (LLMs). My recent work focuses on activation inversion and generating natural language explanations for internal features in LLMs.
+
+🚀 I am actively seeking research internship opportunities and welcome collaborations on LLM interpretability. Feel free to reach out! 📬
 
 
 ## Research Interests
