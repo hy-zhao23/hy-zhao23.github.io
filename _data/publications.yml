@@ -2,16 +2,16 @@ main:
 
   - title: "Universal Activation Verbalizer: A Unified Framework for Cross-Model Activation Explanation"
     authors: <strong>Haiyan Zhao</strong>, Zirui He, Guanchu Wang, Ali Payani, Yingcong Li, Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: EMNLP
+    conference: EMNLP 2026
     pdf: https://arxiv.org/pdf/2605.25903
     image: ./assets/img/paper/uav_figure1.png
     selected: true
 
   - title: "SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization"
     authors: Jingyi He, <strong>Haiyan Zhao</strong>, Ruxue Shi, Yanguang Liu, Xin Wang, Fei Sun, Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: EMNLP
+    conference: EMNLP 2026
     pdf: https://arxiv.org/pdf/2606.08496
     image: ./assets/img/paper/saeexp.png
     selected: true
