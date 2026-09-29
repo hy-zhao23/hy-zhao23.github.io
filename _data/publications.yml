@@ -1,11 +1,21 @@
 main:
 
+  - title: "Faithful Activation Verbalization: Reducing Hallucinations in LLM Representation Interpretation"
+    authors: <strong>Haiyan Zhao</strong>, Zirui He, Wei Shi, Huiqi Deng, Na Zou, Mengnan Du
+    conference_short: arXiv
+    conference: preprint
+    pdf: https://arxiv.org/pdf/2609.34033
+    image: ./assets/img/paper/avpo.png
+    selected: true
+
   - title: "Universal Activation Verbalizer: A Unified Framework for Cross-Model Activation Explanation"
     authors: <strong>Haiyan Zhao</strong>, Zirui He, Guanchu Wang, Ali Payani, Yingcong Li, Mengnan Du
     conference_short: EMNLP
     conference: EMNLP 2026
     pdf: https://arxiv.org/pdf/2605.25903
     image: ./assets/img/paper/uav_figure1.png
+    page: https://mndu.github.io/uav/
+    code: https://github.com/hy-zhao23/ActExp
     selected: true
 
   - title: "SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization"
@@ -18,10 +28,11 @@ main:
 
   - title: "Rep2Text: Decoding Full Text from a Single LLM Token Representation"
     authors: <strong>Haiyan Zhao</strong>, Zirui He, Fan Yang, Ali Payani, Mengnan Du
-    conference_short: arXiv
-    conference: preprint
+    conference_short: NeurIPS
+    conference: NeurIPS 2026
     pdf: https://arxiv.org/pdf/2511.06571
     image: ./assets/img/paper/embedding.png
+    page: https://mndu.github.io/rep2text/
     selected: true
 
   - title: "MemLens: Uncovering Memorization in LLMs with Activation Trajectories"
