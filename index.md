@@ -18,3 +18,5 @@ Hi there! 👋 I am a fourth-year Ph.D. student at the [Department of Computer S
 
 {% include_relative _includes/teaching.md %}
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/cat.md %}
